@@ -1,0 +1,64 @@
+.carousel .thumbs-wrapper{
+    display: none;
+}
+.slide{
+    position: relative;
+}
+.slide::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+.legend1{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    background: transparent;
+    font-weight: bold;
+}
+.slide-text{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    animation-delay:5s;
+}
+.slide-title{
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    animation-delay: 1.7s;
+}
+.legend1 .btn{
+    width: 165px;
+    margin-left: 0.8rem;
+    height: 40px;
+    padding: 8px;
+    border-radius: 40px 0 40px 0;
+    transition: all 0.5s ease;
+    animation-delay: 0.8s;
+}
+.legend1 .btn:hover{
+    border-radius: 0 40px 0 40px;
+    color: #fff;
+}
+
+.anime{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveUp 0.5s linear forwards;
+}
+
+@keyframes moveUp{
+    100%{
+        opacity: 1;
+        transform: translateY(30px);
+    }
+}

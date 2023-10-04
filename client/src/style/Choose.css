@@ -1,0 +1,77 @@
+.choose{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+.choose>div{
+    flex:0 0 auto;
+    width: 33.3333%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 3rem;
+}
+.choose p{
+    color:#6B6A75;
+}
+h3{
+    font-size: 1.7rem;
+    color: #152440;
+    margin-bottom: 0.7rem;
+    line-height: 1.2;
+}
+.icons{
+    width: 60px;
+    height: 60px;
+    font-size: 26px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.left-body{
+    margin-bottom: 2rem;
+}
+.mid-body{
+    background: var(--primary-color) ;
+    text-align: center;
+    height: 100%;
+    display: block;
+}
+.pic{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.para{
+    padding: 1.5rem;
+}
+.para p{
+    color: #fff;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.para a{
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem ;
+    padding-right: 3rem ;
+    padding-left: 3rem ;
+    border-radius: 50rem;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.right-body{
+    margin-bottom: 2rem;
+}

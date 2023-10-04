@@ -1,0 +1,8 @@
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blogs>div{
+    flex: 0 0 auto;
+    width: 33.33%;
+}

@@ -1,0 +1,89 @@
+.footer{
+    display: flex;
+    padding: 3rem;
+}
+.container{
+    color: #fff;
+    background-color: #152440;
+}
+.footer .col-6{
+    width: 25%;
+}
+.footer .col-6 i{
+    color: #F3525A;
+    margin-right: 0.7rem;
+}
+.text1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+ul{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+ul li{
+    margin: 0.8rem 0rem;
+    list-style: none;
+    cursor: pointer;
+}
+ul li:hover{
+    color: var(--primary-color);
+    font-weight: 400;
+}
+.footer-title{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.7rem;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.mb-2{
+    margin-bottom: 1rem;
+}
+.col-6 p{
+    color: #fff;
+}
+.col-6 .link{
+    color: #fff;
+}
+hr{
+    height: 1px;
+    width: 100%;
+    color: #fff;
+    opacity: 0.3;
+}
+.d-flex{
+    display: flex;
+}
+.d-flex .icons{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color:  #F3525A;
+    cursor: pointer;
+    line-height: 1.5;
+    margin-left: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-flex .icons i{
+    color: #FFFFFF;
+    margin: 0;
+}
+.text-blue-500{
+    color: var(--primary-color);
+    font-weight: 500;
+}

@@ -1,0 +1,94 @@
+.contact{
+    margin-top: 0.3rem;
+}
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1rem;
+    margin-left: -0.5rem;
+   /* // margin-right: -0.5rem; */
+}
+.contact .btn{
+    width: 100%;
+}
+.p-5{
+    padding: 3rem;
+}
+.display-5 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #152440;
+}
+.bg-dark{
+    background-color: #152440;
+}
+.bg-dark .col-12{
+    margin: 0;
+}
+.display-4 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fff;
+}
+
+.col-lg-6{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.contact .row>*{
+    flex-shrink: 0;
+    max-width: 100%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-top: 1rem;
+}
+.contact .row .col-6{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.contact .row .col-12{
+    flex: 0 0 auto;
+    width: 100%;
+}
+.contact .form-control{
+    height: calc(3.5rem + 2px);
+    padding: 1rem 0.75rem;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6B6A75;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.25rem;
+}
+
+.contact .map{
+    position: relative;
+    height: 100%;
+}
+.iframe{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.contact .p-6{
+    padding-right: 0.1rem;
+    margin-top: 0.7rem;
+}
+.contact .py-6{
+    padding-top: 90px ;
+    padding-bottom: 90px;
+}
+.contact .px-5{
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}

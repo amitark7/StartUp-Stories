@@ -1,0 +1,23 @@
+.box{
+    padding: 3rem;
+    margin-top: 0rem 1rem;
+}
+.box .about-title{
+    color:#222;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.box .about-desc{
+    font-size: 2rem;
+    color: #222;
+    padding: 2rem;
+}
+.box .about-desc p{
+    margin: 2rem 1rem;
+}
+.box .about-desc span{
+    font-weight: 700;
+    color:black;
+}
