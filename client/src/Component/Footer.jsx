@@ -39,8 +39,8 @@ const Footer = () => {
                     <div className="col-6">
                         <h6 className='text1'>Follow Us</h6>
                         <div className="d-flex">
-                            <a className='icons' href="https://twitter.com/StartUp__Story" target='_blank'><i className='fab fa-twitter fw-normal'></i></a>
-                            <a className='icons' href="https://www.facebook.com/people/StartUp-Story/61551569582444/" target='_blank'><i className='fab fa-facebook-f fw-normal'></i> </a>
+                            <a className='icons' href="https://twitter.com/StartUp__Story" ><i className='fab fa-twitter fw-normal'></i></a>
+                            <a className='icons' href="https://www.facebook.com/people/StartUp-Story/61551569582444/" ><i className='fab fa-facebook-f fw-normal'></i> </a>
                             <a className='icons ' href="https://www.linkedin.com/company/startupstory101/"><i className='fab fa-linkedin-in fw-normal'></i></a>
                             <a className='icons' href="https://www.instagram.com/startup__story__/"><i className='fab fa-instagram fw-normal'></i></a>
                         </div>
