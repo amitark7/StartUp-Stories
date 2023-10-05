@@ -6,7 +6,7 @@ const Login = (props) => {
   const[credential,setCredential]=useState({email:"",password:""});
   const navigate=useNavigate();
   
-  const host = "http://localhost:5000/auth";
+  const host = "https://startup-stories.onrender.com/auth";
   const onSubmit=async (e)=>{
     e.preventDefault();
     const response = await fetch(`${host}/login`, {

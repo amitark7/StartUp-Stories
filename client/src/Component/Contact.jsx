@@ -4,7 +4,7 @@ import '../style/Contact.css'
 const Contact = () => {
     const[query,SetQuery]=useState({name:"",email:'',subject:'',message:''})
 
-    const host="http://localhost:5000/query"
+    const host="https://startup-stories.onrender.com/query"
 
     const handleSubmit=async (e)=>{
         e.preventDefault();

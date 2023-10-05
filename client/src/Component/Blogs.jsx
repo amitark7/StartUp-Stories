@@ -4,7 +4,7 @@ import '../style/Blogs.css'
 
 const Blogs = () => {
     const[blogs,setBlogs]=useState([])
-    const host="http://localhost:5000/blog"
+    const host="https://startup-stories.onrender.com/blog"
 
     const GetBlog=async () => {
         const response= await fetch(`${host}`,{

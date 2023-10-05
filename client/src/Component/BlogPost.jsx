@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import '../style/BlogPost.css'
 
 const BlogPost = () => {
-    const host="http://localhost:5000/blog"
+    const host="https://startup-stories.onrender.com/blog"
     const[blog,setBlogs]=useState({title:'',desc:''})
 
     const onSubmit=async (e) => {
