@@ -74,8 +74,8 @@ hr{
     background-color:  #F3525A;
     cursor: pointer;
     line-height: 1.5;
-    margin-left: 0.5rem;
-    display: flex;
+    margin-left: 0.5rem !important;
+    display: flex !important;
     justify-content: center;
     align-items: center;
 }

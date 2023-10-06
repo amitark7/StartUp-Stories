@@ -9,7 +9,6 @@ const Service = () => {
                 <hr style={{ height: '1px', width: '15%', backgroundColor: '#F3525A', margin: 'auto', opacity: '0.3' }} />
             </div>
             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-
                 <Card icon={'fa-solid fa-business-time'} title={"Business Management"} desc={" Comprehensive management services, from creating effective business models to organizational structuring, aimed at optimizing performance."}/>
                 <Card icon={'fa fa-chart-pie fa-2x'} title={"Strategic Consulting"} desc={"Tailor-made solutions for businesses looking to refine their goals and operations, specializing in startups and SMEs."} />
                 <Card icon={'fa-solid fa-photo-film'} title={"Social Media Management"} desc={"Full-service management of your social media channels, crafting content and strategies that resonate with your target audience."}/>

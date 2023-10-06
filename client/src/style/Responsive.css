@@ -1,0 +1,123 @@
+@media(max-width:956px){
+
+    /* Navbar Making Responsive */
+    .logo{
+        width: 54px !important;
+    }
+    .navbar h1{
+        font-size: 28px !important;
+    }
+    .navbar-nav{
+        position: absolute;
+        display: none !important;
+        height: 100vh;
+        flex-direction: column;
+        background-color: black;
+        padding: 20px 0;
+        width: 60%;
+        top: 0%;
+        right: -100%;
+        z-index: 1;
+    }
+    .navbar-nav.show{
+        display: flex !important;
+        right: 0%;
+    }
+    .hamburger {
+        display: block !important;
+        position: absolute;
+        font-size: 24px !important;
+        top: 30%;
+        right: 10%;
+        z-index: 22;
+    }
+    .navbar-nav .btn{
+        height: 30px;
+        width: 90px;
+        margin: 0  !important;
+        margin-bottom: 1rem !important;
+    }
+    .nav-item{
+        display: block;
+        color: #fff !important;
+        margin: 20px auto !important;
+    }
+
+    /* Slider Font Responsive */
+
+    .slide-title{
+        font-size: 3rem !important;
+    }
+    .legend1{
+        left: 2% !important;
+    }
+
+    /* Welcome Responsive */
+    .welcome{
+        flex-direction: column;
+    }
+    .welcome>div{
+        width: 100% !important;
+    }
+
+    /* Service Card Responsive */
+    .card-body{
+        width: 100% !important;
+    }
+
+    /* Choose Section Responsive */
+    .choose>div{
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .icons{
+        text-align: center !important;
+        display: flex !important;
+        margin: auto !important;
+    }
+    .pic{
+        width: 100% !important;
+    }
+
+    /* Request Quote Responsive */
+    .request>div{
+       width: 100% !important;
+    }   
+    
+    /* Founder Section Responsive */
+    .col-4{
+        width: 100% !important;
+    }
+
+    /* Blogs Responsive */
+    .blogs>div{
+        width: 100% !important;
+    }
+
+    /* Contact Section Responsive */
+    .col-lg-6{
+        width: 100% !important;
+    }
+    /* Footer Section Responsive  */
+    .footer{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem !important;
+    }
+    .footer .col-6{
+        width: 100% !important;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .d-flex{
+        justify-content: center;
+        align-items: center;
+    }
+    .d-flex .icons{
+        margin: 0 !important;
+    }
+   .sign i{
+        display: none;
+   }
+}

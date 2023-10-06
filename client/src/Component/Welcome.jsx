@@ -37,7 +37,6 @@ const Welcome = () => {
         </div>
         <div className='service'>
           <div className='icon'>
-
             <i className='fa fa-chart-line fa-2x'></i>
           </div>
           <div className='details'>

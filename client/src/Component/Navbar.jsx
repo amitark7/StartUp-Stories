@@ -1,13 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../style/Navbar.css'
 import logo from '../images/logo.png'
 import {Link, useNavigate} from 'react-router-dom'
 
 const Navbar = () => {
     const navigate=useNavigate()
+    const[value,setValue]=useState(true)
     const handleClick=()=>{
         localStorage.removeItem('token')
         navigate('/')
+    }
+
+    const handleHam=()=>{
+        if(value===true){
+            setValue(false)
+        }else{
+            setValue(true)
+        }
     }
     return (
         <>
@@ -41,14 +50,17 @@ const Navbar = () => {
                     <img src={logo} alt="" className='logo' />
                     <h1>STARTUP STORY</h1>
                 </Link>
-                <div className="navbar-nav">
-                    <Link to="/" className="nav-item ">Home</Link>
+                <div className={value?"navbar-nav":"navbar-nav show"}>
+                    <Link to="/" className="nav-item">Home</Link>
                     <Link to="/about" className="nav-item">About</Link>
                     <Link to="/service" className="nav-item">Service</Link>
                     <Link to="/blog" className="nav-item ">Blogs</Link>
                     <Link to="/contact" className="nav-item ">Contact</Link>
                     {!localStorage.getItem('token')?<Link  to="/login" className="btn">Login</Link>:
                     <button onClick={handleClick} className="btn">Logout</button>}
+                </div>
+                <div className='hamburger' style={{color:value?"black":"white"}} onClick={handleHam}>
+                    <i className={value?"fa-solid fa-bars":"fa-solid fa-xmark"}></i>
                 </div>
             </nav>
         </>

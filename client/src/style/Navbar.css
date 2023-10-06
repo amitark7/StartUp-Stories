@@ -23,7 +23,7 @@
 .logo{
     width: 58px;
 }
-h1{
+.navbar h1{
     color: var(--primary-color);
     font-size: 31px;
 }
@@ -34,6 +34,7 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: all 0.3s ease;
 }
 .navbar-nav .btn{
     height: 40px;
@@ -43,6 +44,13 @@ a{
     border-radius: 20px;
     border-top-right-radius: 0;
     transition: all 0.5s ease;
+}
+.hamburger {
+    width: 20px;
+    display: none;
+    height: 20px;
+    font-size:28px ;
+    color: #111;
 }
 .navbar-nav .btn:hover{
     border-top-right-radius: 20px;
