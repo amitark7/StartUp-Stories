@@ -6,8 +6,8 @@ import {Link} from 'react-router-dom'
 const Choose = () => {
     return (
         <div className='container-fluid py-6'>
-            <div style={{ marginBottom: '3rem' }}>
-                <h1 style={{ textAlign: 'center', color: '#111', fontSize: '3rem', lineHeight: '1.2', marginBottom: '0.5rem' }}>Why Choose Us!!!</h1>
+            <div className='container-m'>
+                <h1 className="container-title" >Why Choose Us!!!</h1>
                 <hr style={{ height: '1px', width: '15%', backgroundColor: '#F3525A', margin: 'auto', opacity: '0.3' }} />
             </div>
             <div className="choose">

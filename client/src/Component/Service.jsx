@@ -4,8 +4,8 @@ import Card from './Card'
 const Service = () => {
     return (
         <div style={{ paddingTop: '90px' }} >
-            <div style={{ marginBottom: '3rem' }}>
-                <h1 style={{ textAlign: 'center', color: '#111', fontSize: '3rem', lineHeight: '1.2', marginBottom: '0.5rem' }}>What we offer</h1>
+            <div className='container-m'>
+                <h1 className='container-title'>What we offer</h1>
                 <hr style={{ height: '1px', width: '15%', backgroundColor: '#F3525A', margin: 'auto', opacity: '0.3' }} />
             </div>
             <div style={{ display: 'flex', flexWrap: 'wrap' }}>

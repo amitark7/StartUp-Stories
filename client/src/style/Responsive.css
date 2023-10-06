@@ -1,5 +1,4 @@
 @media(max-width:956px){
-
     /* Navbar Making Responsive */
     .logo{
         width: 54px !important;
@@ -120,4 +119,239 @@
    .sign i{
         display: none;
    }
+}
+
+/* Width 365 */
+@media(max-width:365px){
+    .container-title{
+        font-size: 28px !important;
+        margin-bottom: 4px !important;
+    }
+    .container-m{
+        margin-bottom: 1rem !important;
+    }
+    /* Navbar Making Responsive */
+    .navbar{
+        padding: 8px 16px !important;
+    }
+    .logo{
+        width: 38px !important;
+    }
+    .navbar h1{
+        font-size: 16px !important;
+    }
+    .navbar-nav{
+        position: absolute;
+        display: none !important;
+        height: 100vh;
+        flex-direction: column;
+        background-color: black;
+        padding: 20px 0;
+        width: 100%;
+        top: -200%;
+        right: 0%;
+        z-index: 1;
+    }
+    .hamburger{
+        font-size: 20px !important;
+    }
+    .navbar-nav.show{
+        display: flex !important;
+        top: 0%;
+    }
+
+    /* Slider Font Responsive */
+    .slide-text{
+        font-size: 0.8rem !important;
+    }
+    .slide-title{
+        font-size: 1rem !important;
+    }
+    .legend1{
+        left: 11% !important;
+        top: 15% !important;
+    }
+    .legend1 .btn{
+        width: 105px !important;
+        text-align: center;
+        padding:4px 0 !important;
+        height: 20px !important;
+        font-size: 8px !important;
+    }
+
+    /* Welcome Responsive */
+    .welcome{
+        flex-direction: column;
+    }
+    .welcome>div{
+        width: 100% !important;
+    }
+    .left-side>h1{
+        font-size: 20px !important;
+    }
+    .left-side>h3{
+        font-size: 16px !important;
+        margin-bottom: 0.5rem !important;
+    }
+    .left-side>p{
+        padding: 0% !important;
+        font-size: 10px !important;
+    }
+    .left-side .btn{
+        width: 100px !important;
+        height: 30px !important;
+        padding: 0 !important;
+    }
+    .left-side .btn a{
+        font-size: 10px !important;
+    }
+    .right-side h3{
+        font-size: 12px !important;
+    }
+    .right-side p{
+        font-size: 8px !important;
+    }
+    .icon{
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .icon>i{
+        font-size: 1rem !important;
+    }
+
+    /* Service Card Responsive */
+    .card-body{
+        width: 100% !important;
+        height: auto !important;
+        padding: 18px 10px !important;
+    }
+    .card-title{
+        font-size: 18px !important;
+    }
+    .card-desc{
+        font-size: 12px !important;
+    }
+    .card-img{
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .card-img>i{
+        font-size: 18px !important;
+    }
+
+    /* Choose Section Responsive */
+    .choose>div{
+        width: 100% !important;
+        text-align: center !important;
+        padding: 0 !important;
+    }
+    .choose h3{
+        font-size: 18px !important;
+    }
+    .icons{
+        text-align: center !important;
+        display: flex !important;
+        margin: auto !important;
+        width: 40px !important;
+        height: 40px !important;
+        font-size: 18px !important;
+    }
+    .text-white{
+        font-size: 18px !important;
+        margin-bottom: 0 !important;
+    }
+    .pic{
+        width: 100% !important;
+    }
+    .para p{
+       font-size: 12px !important;
+    }
+    .para a{
+        font-size: 10px !important;
+        padding: 10px !important;
+    }
+
+    /* Request Quote Responsive */
+    .request>div{
+       width: 100% !important;
+    }   
+    
+    /* Founder Section Responsive */
+    .col-4{
+        width: 100% !important;
+    }
+    .image{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .text-data .name{
+        font-size: 16px !important;
+    }
+    .text-data .job{
+        font-size: 12px !important;
+    }
+    .media-buttons .link{
+        width: 20px !important;
+        height: 20px !important;
+        font-size: 10px !important;
+    }
+
+    /* Blogs Responsive */
+    .blogs>div{
+        width: 100% !important;
+    }
+
+    /* Contact Section Responsive */
+    .col-lg-6{
+        width: 100% !important;
+    }
+    /* Footer Section Responsive  */
+    .footer{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem !important;
+    }
+    .footer .col-6{
+        width: 100% !important;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .d-flex{
+        justify-content: center;
+        align-items: center;
+    }
+    .d-flex .icons{
+        width: 30px !important;
+        height: 30px !important;
+        margin: 0 !important;
+        font-size: 16px !important;
+    }
+   .sign i{
+        display: none;
+   }
+   .text-blue-500{
+    font-size: 16px !important;
+   }
+   .py-4{
+    font-size: 16px !important;
+   }
+
+   /* About Section Responsive  */
+   .box{
+    padding: 1rem !important;
+    margin-top: 0rem 1rem;
+    }
+   .box .about-title{
+    font-size: 20px !important;
+    margin-bottom: 0.3rem !important;
+    }
+    .box .about-desc{
+        font-size: 14px !important;
+        padding:8px !important;
+    }
+    .box .about-desc p{
+       font-size: 14px !important;
+       margin: 8px 4px !important;
+    }
 }
