@@ -1,6 +1,7 @@
 import React from 'react'
 import '../style/About.css'
 import Team from './Team'
+import ProfileCard from './ProfileCard'
 
 const About = () => {
     return (
@@ -157,6 +158,7 @@ const About = () => {
                     </h1>
                 </div>
                 <Team />
+                <ProfileCard/>
             </div>
         </>
     )
