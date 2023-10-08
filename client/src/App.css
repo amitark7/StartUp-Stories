@@ -5,6 +5,10 @@
 *{
   box-sizing: border-box;
 }
+.service1{
+  display: flex;
+  flex-wrap: wrap;
+}
 h1{
   color: #111;
 }

@@ -13,12 +13,14 @@ import ServicePage from './Component/ServicePage';
 import Footer from './Component/Footer';
 import Contact from './Component/Contact';
 import About from './Component/About';
+import ScrollToTop from './Component/ScrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
     <Navbar/>
+    <ScrollToTop/>
       <Routes>
         <Route path='/' element={<App />}/>
       </Routes>

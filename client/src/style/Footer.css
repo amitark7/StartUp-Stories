@@ -19,16 +19,16 @@
     margin-bottom: 1rem;
 }
 
-ul{
+.footer ul{
     margin-top: 1rem;
     margin-left: 1rem;
 }
-ul li{
+.footer ul li{
     margin: 0.8rem 0rem;
     list-style: none;
     cursor: pointer;
 }
-ul li:hover{
+.footer ul li:hover{
     color: var(--primary-color);
     font-weight: 400;
 }

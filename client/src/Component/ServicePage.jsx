@@ -1,5 +1,6 @@
 import React from 'react'
 import Service from './Service'
+import Request from './Request'
 
 const ServicePage = () => {
   return (
@@ -13,6 +14,7 @@ const ServicePage = () => {
             </div>
     <div>
       <Service/>
+      <Request/>
     </div>
     </>
   )

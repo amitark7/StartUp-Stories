@@ -11,13 +11,7 @@ const Navbar = () => {
         navigate('/')
     }
 
-    const handleHam=()=>{
-        if(value===true){
-            setValue(false)
-        }else{
-            setValue(true)
-        }
-    }
+    const handleHam=()=>setValue(!value);
     return (
         <>
 
@@ -50,7 +44,7 @@ const Navbar = () => {
                     <img src={logo} alt="" className='logo' />
                     <h1>STARTUP STORY</h1>
                 </Link>
-                <div className={value?"navbar-nav":"navbar-nav show"}>
+                <div className={value?"navbar-nav":"navbar-nav show"} onClick={handleHam}>
                     <Link to="/" className="nav-item">Home</Link>
                     <Link to="/about" className="nav-item">About</Link>
                     <Link to="/service" className="nav-item">Service</Link>

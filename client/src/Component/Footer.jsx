@@ -11,7 +11,7 @@ const Footer = () => {
             <div className='container-fluid container'>
                 <div className='footer'>
                     <div className='col-6 sign'>
-                        <h6 className='text1'>Solutions</h6>
+                        <h6 className='text1 my-2'>Solutions</h6>
                         <ul>
                             <li className='py-1 cursor-pointer hover:text-blue-400'><i class="fa-solid fa-arrow-right"></i> Marketing</li>
                             <li className='py-1 cursor-pointer hover:text-blue-400'><i class="fa-solid fa-arrow-right"></i>Analytics</li>
@@ -21,7 +21,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className='col-6 sign'>
-                        <h6 className='text1'>Company</h6>
+                        <h6 className='text1 my-2'>Company</h6>
                         <ul>
                             <li className='py-1 cursor-pointer hover:text-blue-400'><i class="fa-solid fa-arrow-right"></i><Link to='/' className='link'>Home</Link></li>
                             <li className='py-1 cursor-pointer hover:text-blue-400'><i class="fa-solid fa-arrow-right"></i><Link to='/about' className='link'>About Us</Link></li>
