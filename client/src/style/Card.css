@@ -5,10 +5,28 @@
 .card{
     padding: 30px;
 }
-.card:hover .card-body{
+.card-body{
+    background-color: #F6F6F6;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.card-body:hover{
+    background-color: var(--primary-color);
+}
+.card-body:hover .card-img {
+    background-color: #F6F6F6;
+}
+.card-body:hover .card-desc{
+   color:  #fff;
+}
+.card-body:hover .card-img i{
+    color: var(--primary-color);
+}
+.card-body:hover .card_body{
     transform: scale(1.05);
 }
-.card-body{
+
+.card_body{
     display: flex;
     height: 350px;
     box-sizing: border-box;
@@ -16,8 +34,7 @@
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: #F6F6F6;
+    align-items: center; 
     transition: all 0.5s ease;
 }
 .card-title{

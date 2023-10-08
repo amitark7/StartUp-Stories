@@ -67,10 +67,14 @@
 .banner{
     min-height: 400px;
 }
-.banner:hover img{
-    transform: scale(1.03);
+.banner-body{  
+    position: relative;
+    height: 100%;
 }
-.banner img{
+.banner-body:hover .ban-image{
+    transform: scale(1.02);
+}
+.ban-image{
     position: absolute;
     object-fit: cover;
     height: 100%;

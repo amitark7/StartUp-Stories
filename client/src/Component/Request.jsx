@@ -5,8 +5,8 @@ const Request = () => {
     return (
         <div id='quote' className='request'>
             <div className='text'>
-                <h1>Request A Free Quote</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolores, laborum soluta quaerat dolore similique animi rerum possimus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id rem commodi laudantium fuga veniam quae dolore officia doloremque, magni veritatis repudiandae, quo quidem a corrupti minus suscipit ullam cum aliquam?</p>
+                <h1>Request A Free Booking</h1>
+                <p>If You Want Grow Your Bussiness Then Choose Us To Reach The Top Level. Why Are You Waiting ! Hurry Up Book Your Seat Free And Join Our Team To Grow Your Dreams.</p>
                 <form >
                     <div className="row">
                         <div className='col-6'>
@@ -26,15 +26,15 @@ const Request = () => {
                         </div>
                         <div className='col-6'>
                             <div>
-                               <button className='btn'>Request A Booking</button>
+                                <button className='btn'>Book</button>
                             </div>
                         </div>
                     </div>
                 </form>
             </div>
             <div className='banner'>
-                <div style={{position:'relative', height:'100%'}}>
-                    <img src="https://amitark7.github.io/StartUp-Story/img/quote.jpg" alt="" />
+                <div className='banner-body'>
+                        <img className='ban-image' src="https://amitark7.github.io/StartUp-Story/img/quote.jpg" alt="" />
                 </div>
             </div>
         </div>

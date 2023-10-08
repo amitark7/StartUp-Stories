@@ -17,21 +17,21 @@ const Choose = () => {
                             <i className='fa fa-cubes fs-4 text-white'></i>
                         </div>
                         <h3>Best In Industry</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptas ipsam quaerat.</p>
+                        <p>We are Best in Industry Because Our Identity is Efficiency And Qualitative Services.</p>
                     </div>
                     <div className='left-body'>
                         <div className="icons">
                             <i className='fa fa-percent fs-4 text-white'></i>
                         </div>
                         <h3>99% Success Rate</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatem eum in.</p>
+                        <p>Customer Succes Rate is Our Success Rate.</p>
                     </div>
                     <div className='left-body'>
                         <div className="icons">
                             <i className='fa fa-award fs-4 text-white'></i>
                         </div>
                         <h3>Award Winning</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptate nam qui!</p>
+                        <p>Customer Satisfaction Is Our Award Winning Moment.</p>
                     </div>
                 </div>
                 <div className="mid">
@@ -57,21 +57,21 @@ resolve to persevere.</p>
                             <i className='far fa-smile-beam fs-4 text-white'></i>
                         </div>
                         <h3>100% Happy Client</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum provident maiores expedita.</p>
+                        <p>The customer is the most important part of our business.” “You can't make everyone happy, but you can please yourself.</p>
                     </div>
                     <div className='right-body'>
                         <div className="icons">
                             <i className='fa fa-user-tie fs-4 text-white'></i>
                         </div>
                         <h3>Professional Advisory</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae magni error!</p>
+                        <p>I Give You Suggestions On The Basis Of Market Demand.</p>
                     </div>
                     <div className='right-body'>
                         <div className="icons">
                             <i className='fa fa-headset fs-4 text-white'></i>
                         </div>
                         <h3>24/7 Customer Support</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis hic exercitationem voluptatibus!</p>
+                        <p>Our Team Members Help You 24/7 Hours.</p>
                     </div>
                 </div>
             </div>
