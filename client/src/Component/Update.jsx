@@ -6,7 +6,7 @@ const Update = () => {
     <div className='container-fluid bg-primary py-5'>
       <div className="row">
         <div className="col-12">
-            <h1 className="display-5">Stay Update!!!</h1>
+            <h1 className="display-5">Stay Updated!!!</h1>
             <form action="" className="mx-auto">
                 <div className="input-group">
                     <input type="text" className='form-control' placeholder='Your Email'/>
