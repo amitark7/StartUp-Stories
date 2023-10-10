@@ -20,10 +20,10 @@ const Login = (props) => {
     if(json.success){
     localStorage.setItem('token',json.data)
       navigate("/admin");
-      console.log("Login Successfully")
+      alert("Login Successfully")
     }
     else{
-        console.log("Invallid Password")
+        alert("Invallid Email or password")
     }
   }
 
