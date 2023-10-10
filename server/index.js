@@ -5,7 +5,7 @@ const AuthRoute =require('./Route/AuthRoute')
 const QueryRoute=require('./Route/QueryRoute')
 const cors=require('cors')
 
-mongoURI="mongodb+srv://kumaramit21470:BaNo6Sxd3viZNpOb@cluster0.4zudpz7.mongodb.net/?retryWrites=true&w=majority"
+mongoURI="mongodb+srv://kumaramit21470:BaNo6Sxd3viZNpOb@cluster0.4zudpz7.mongodb.net/StartupStory?retryWrites=true&w=majority"
 
 mongoose.connect(mongoURI,{useNewUrlParser:true,useUnifiedTopology:true}
     ).then(()=>console.log("Mongo Connected"));
