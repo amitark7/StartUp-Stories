@@ -70,7 +70,7 @@ const ProfileCard = () => {
                 </div>
                 <div className="text-data">
                     <span className='name'>Amit Kumar</span>
-                    <span className='job'>Web Developer</span>
+                    <span className='job'>MERN Developer</span>
                 </div>
                 <div className="media-buttons">
                     <a href="https://www.facebook.com/profile.php?id=100012760477413" style={{ background: '#4267b2' }} className='link'>
