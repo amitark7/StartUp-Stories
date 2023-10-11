@@ -49,14 +49,14 @@
 
 .right-side h3{
     font-size: 1.7rem;
-    color: var(--black);
+    color: #F6F6F6;
     font-weight: 700;
     margin-bottom: 0.5rem;
     line-height: 1.2;
 }
 
 .right-side p{
-    color: #fff;
+    color: #bebbbb;
 }
 .service{
     display: flex;

@@ -9,6 +9,10 @@
   display: flex;
   flex-wrap: wrap;
 }
+.service1>div{
+  width: calc(33% - 20px);
+  margin: auto;
+}
 h1{
   color: #111;
 }

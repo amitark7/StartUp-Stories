@@ -1,4 +1,28 @@
+@media(max-width:1536px){
+    .card-title{
+        font-size: 1.8rem;
+    }
+}
+@media(max-width:1400px){
+    .service1>div{
+        width: 50% !important;
+      }
+      .legend1{
+        top: 38% !important;
+        left: 22% !important;
+    }
+}
+@media(max-width:1096px){
+    .legend1{
+        top: 23% !important;
+        left: 10% !important;
+    }
+}
 @media(max-width:956px){
+    /* Service Section  */
+    .service1>div{
+        width: 100% !important;
+      }
     /* Navbar Making Responsive */
     .logo{
         width: 54px !important;
@@ -141,6 +165,9 @@
 
 /* Width 365 */
 @media(max-width:565px){
+    .service1>div{
+        width: 100% !important;
+      }
     .container-title{
         font-size: 28px !important;
         margin-bottom: 4px !important;
