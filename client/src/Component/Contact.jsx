@@ -49,7 +49,7 @@ const Contact = () => {
                                 <input type="text" name='subject' onChange={onChange} value={query.subject} placeholder='Subject' className='form-control' />
                             </div>
                             <div className="col-12">
-                                <textarea name="message" onChange={onChange} value={query.message} className='form-control' placeholder='Enter Your Message' id="message" style={{ height: '150px' }}></textarea>
+                                <textarea name="message" onChange={onChange} value={query.message}  className='form-control' placeholder='Enter Your Message' id="message" style={{ height: '150px',resize:'none' }}></textarea>
                             </div>
                             <div className="col-12">
                                 <button className='btn' type='submit'>Submit</button>
