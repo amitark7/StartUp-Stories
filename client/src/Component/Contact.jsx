@@ -59,7 +59,7 @@ const Contact = () => {
                 </div>
                 <div className="col-lg-6 p-6" style={{ minHeight: '400px' }}>
                     <div className='map'>
-                        <iframe  id="frame1" title="location" className='iframe' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd" frameborder="0" allowFullScreen arial-hidden='false' tabIndex='0'>
+                        <iframe  id="frame1" title="location" className='iframe' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28467.805844838895!2d80.97423148285772!3d26.888393076171994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd549ce377af%3A0xb88f53ecb02c52d8!2sIndira%20Nagar%2C%20Lucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1697156062774!5m2!1sen!2sin" frameborder="0" allowFullScreen arial-hidden='false' tabIndex='0'>
                             </iframe> 
                     </div>
                 </div>
