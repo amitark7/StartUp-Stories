@@ -33,7 +33,7 @@ const Footer = () => {
                     <div className="col-6">
                         <h6 className='text1'>Get In Touch</h6>
                         <p className='mb-2'><i class="fa-solid fa-location-dot"></i>Lucknow ,Uttar Pradesh </p>
-                        <p className='mb-2'><i class="fa-regular fa-envelope-open"></i>admin@startupstory.info</p>
+                        <p className='mb-2'><i class="fa-regular fa-envelope-open"></i><a href="mailto:admin@starupstory.info" style={{color:'#fff',textDecoration:'none'}}>admin@startupstory.info</a></p>
                         <p><i class="fa-solid fa-phone"></i>+91 9044030814</p>
                     </div>
                     <div className="col-6">
