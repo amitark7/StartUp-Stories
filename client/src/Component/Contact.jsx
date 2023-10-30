@@ -59,7 +59,7 @@ const Contact = () => {
                 </div>
                 <div className="col-lg-6 p-6" style={{ minHeight: '400px' }}>
                     <div className='map'>
-                        <iframe  id="frame1" title="location" className='iframe' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28467.805844838895!2d80.97423148285772!3d26.888393076171994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd549ce377af%3A0xb88f53ecb02c52d8!2sIndira%20Nagar%2C%20Lucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1697156062774!5m2!1sen!2sin" frameborder="0" allowFullScreen arial-hidden='false' tabIndex='0'>
+                        <iframe  id="frame1" title="location" className='iframe' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14233.648597155523!2d81.00027734739268!3d26.89041191421705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39995874dd62d9d3%3A0xed640e0c183b5c2!2sC%20Block%2C%20Sector%2011%2C%20Indira%20Nagar%2C%20Lucknow%2C%20Uttar%20Pradesh%20226016!5e0!3m2!1sen!2sin!4v1698687050934!5m2!1sen!2sin" frameborder="0" allowFullScreen arial-hidden='false' tabIndex='0'>
                             </iframe> 
                     </div>
                 </div>

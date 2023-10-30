@@ -14,7 +14,6 @@ const Navbar = () => {
     const handleHam=()=>setValue(!value);
     return (
         <>
-
             {/* <div className="container-fluid bg-secondary ps-5 pe-0 d-none d-lg-block">
             <div className="row gx-0">
                 <div className="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
@@ -38,7 +37,6 @@ const Navbar = () => {
                 </div>
             </div>
         </div> */}
-
             <nav className="navbar">
                 <Link to="/" className="navbar-title">
                     <img src={logo} alt="" className='logo' />
