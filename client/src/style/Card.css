@@ -14,7 +14,7 @@
     background-color: var(--primary-color);
 }
 .card-body:hover .card-img {
-    background-color: #111;
+    background-color: #F6F6F6;
 }
 .card-body:hover .card-desc{
    color:  #fff;
@@ -53,7 +53,7 @@
     margin-bottom: 1.5rem;
 }
 .card-img>i{
-    color: #111;
+    color: #fff;
     font-size: 35px;
 }
 .card-desc{
